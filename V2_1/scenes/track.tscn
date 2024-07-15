@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cj6b1qap0hknt"]
+
+[ext_resource type="AudioStream" uid="uid://bh25k4cnjof3f" path="res://assets/music/time_for_adventure.mp3" id="1_w1t4f"]
+
+[node name="Track" type="AudioStreamPlayer2D"]
+position = Vector2(547, 340)
+stream = ExtResource("1_w1t4f")
+volume_db = 5.0
+autoplay = true
+max_distance = 1e+06
+area_mask = 3
